@@ -1,0 +1,23 @@
+h1 {
+  color: #DD0000;
+}
+
+a {
+  color: #DD0000;
+}
+
+.wy-nav .wy-menu-vertical header {
+  color: #DD0000
+}
+
+.wy-side-nav-search {
+  background-color: #333333;
+  color: #fcfcfc;
+}
+
+.wy-side-nav-search input[type="text"] {
+  width: 100%;
+  border-radius: 0px;
+  padding: 6px 12px;
+  border-color: #DD0000;
+}
