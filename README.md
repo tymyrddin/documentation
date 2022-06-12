@@ -1,0 +1,23 @@
+# Documentation
+
+Improving our documentation skills. Keys are our word skills, understanding intended readers, and purpose and context of code comments, external 
+documentation, automated tests, git commit messages, pull request descriptions, automated documentation, and error 
+messages. And an exercise in using docsify: https://tymyrddin.github.io/documentation
+
+Installing mkdocs with `pip`, `pipenv` or `poetry` (example here is `pip`)
+```bash
+$ pip install mkdocs
+```
+Or by using the requirements file in the repo:
+```bash
+$ pip install -r requirements.txt
+```
+Launching the site in a local web server, running on port 8000 (in the directory where `mkdocs.yml` resides):
+```bash
+$ mkdocs serve
+```
+Using the built-in support for generating a static website by run the build command:
+```bash
+$ mkdocs build
+```
+This will generate an entire website in a new folder named `site`.
