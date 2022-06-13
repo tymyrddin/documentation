@@ -21,3 +21,8 @@ Using the built-in support for generating a static website by run the build comm
 $ mkdocs build
 ```
 This will generate an entire website in a new folder named `site`.
+
+Deployment:
+```bash
+$ mkdocs gh-deploy
+```
