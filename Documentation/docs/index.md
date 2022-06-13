@@ -5,9 +5,6 @@ noone else might get the thing running, let alone use it. Documenting everything
 good either! No one will read it. And the more writing there is, the more artful, accurate and unambiguous it needs to 
 be, and the more time and energy it will take to maintain it.
 
-Built with [MkDocs](https://www.mkdocs.org/) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided 
-by [Read the Docs](https://readthedocs.org/). 
-
 ## Common problems
 
 - Parts of the documentation are outdated/incomplete
@@ -19,9 +16,3 @@ by [Read the Docs](https://readthedocs.org/).
 - Keyword-driven (what is possible) instead of tutorial-driven (what is recommended)
 - With some projects it is impossible to get a result after 5 minutes of reading
 - Some projects even take pride in being inaccessible, hard to understand, undocumented, and opaque
-
-## More problems or suggestions
-
-This project welcomes contributions and suggestions. 
-
-[Open an issue here](https://github.com/tymyrddin/tymyrddin.github.io/issues)
