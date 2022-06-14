@@ -2,7 +2,7 @@ site_name: Documentation
 docs_dir: 'docs'
 site_author: Ty Myrddin
 repo_url: https://github.com/tymyrddin/documentation
-edit_uri: edit/main/docs/
+edit_uri: edit/main/Documentation/docs/
 theme:
     name: readthedocs
     custom_dir: custom_theme/
