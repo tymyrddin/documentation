@@ -12,6 +12,21 @@ Acceptance test: Someone new to the project, not necessarily a developer, can us
 
 ## Guides
 
+* Lay out usage examples step-by-step
+* Include plenty of diagrams and illustrations
+* Usually contains: 
+  * minimum hardware and software requirements
+  * installation/setup guide and instructions on how to start the system (possibly in the form of a [quickstart](quickstarts.md))
+  * description of main features
+  * instructions on how to use the system
+  * cautions and warnings
+  * [Troubleshooting steps](troubleshooting-guides.md) with examples of the most common error messages
+  * contact information in case undocumented questions arise
+
 ## Related
 
+Do not repeat in this documentation what can be figured out from the tests or by setting a breakpoint, calling the method, and following the execution path.
+
 ## Resources
+
+User manuals can be created using a variety of tools. Each tool has its own advantages and disadvantages.
