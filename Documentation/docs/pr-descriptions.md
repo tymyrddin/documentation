@@ -25,3 +25,4 @@ Acceptance test: A PR description should make it possible for a reviewer to take
 
 * [Submitting Pull Requests](https://chelseatroy.com/2019/12/13/async-collaboration-1-submitting-pull-requests/)
 * [Reviewing Pull Requests](https://chelseatroy.com/2019/12/18/reviewing-pull-requests/)
+* [The Documentation Compendium Pull request checklist](https://github.com/kylelobo/The-Documentation-Compendium/blob/master/en/PULL_REQUEST_TEMPLATE.md)
