@@ -2,11 +2,12 @@
 
 > “if your code needs comments, it’s not clear enough on its own.”
 
-Utter bullocks. And self-defeating.
+Not always true: “if the code is so unclear that it requires a comment, then *maybe* it should be rewritten instead”
 
 ## Context
 
-When senior and junior people join the team, when you come back to the code after a few weeks or more.
+* When senior and junior people join the team.
+* When you come back to the code after a few weeks or more.
 
 ## Guides
 
@@ -25,4 +26,6 @@ When senior and junior people join the team, when you come back to the code afte
 
 * [Python Commenting Best Practices](https://realpython.com/python-comments-guide/#python-commenting-best-practices)
 * [Python Commenting Worst Practices](https://realpython.com/python-comments-guide/#python-commenting-worst-practices)
+* [JavaScript Good Comments](https://javascript.info/comments#good-comments)
+* [Javascript Bad Comments](https://javascript.info/comments#bad-comments)
 
