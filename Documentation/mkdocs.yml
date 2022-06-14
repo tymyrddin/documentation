@@ -9,7 +9,9 @@ theme:
 nav:
     - Home: 'index.md'
     - 'code-comments.md'
-    - 'external-docs.md'
+    - 'quickstarts.md'
+    - 'user-manuals'
+    - 'troubleshooting-guides.md'
     - 'automated-tests.md'
     - 'commit-messages.md'
     - 'pr-descriptions.md'
