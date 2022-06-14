@@ -10,7 +10,7 @@ nav:
     - Home: 'index.md'
     - 'code-comments.md'
     - 'quickstarts.md'
-    - 'user-manuals'
+    - 'user-manuals.md'
     - 'troubleshooting-guides.md'
     - 'automated-tests.md'
     - 'commit-messages.md'
