@@ -10,7 +10,7 @@ layers of collaboration on top of the underlying version control software.
 Whether called a merge request (GitLab) or a pull request (GitHub), this is a request to have changes merged into a 
 repository or project. The process of reviewing the changes before they are merged is called "code review".
 
-Acceptance test: A PR description should make it possible for a reviewer to take over this change set.
+Acceptance test: A PR description should make it possible for a reviewer to take over the change set.
 
 ## Guides
 
