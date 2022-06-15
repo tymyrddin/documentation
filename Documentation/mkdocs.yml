@@ -8,7 +8,7 @@ theme:
     custom_dir: custom_theme/
     include_homepage_in_sidebar: False
     prev_next_buttons_location: 'bottom'
-    titles_only: False
+    titles_only: True
     logo: img/logo.png
     style_external_links: True
 nav:
