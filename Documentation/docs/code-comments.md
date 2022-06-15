@@ -19,7 +19,6 @@ Not always true: “if the code is so unclear that it requires a comment, then *
 
 ## Related
 
-* [Hardly any comments yet in FastAPI TDD Docker](https://github.com/tymyrddin/fastapi-tdd-docker)
 * [Plotting code from Pandas in which the docstrings make up more than half of the file](https://github.com/pandas-dev/pandas/blob/main/pandas/plotting/_core.py)
 
 ## Resources

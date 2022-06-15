@@ -6,7 +6,7 @@ User manuals are on what a software does and how to use it. What follows are too
 
 ## Context
 
-What does someone have to do to get "this" and "that", things the software is supposed to do for a user? The written communication varies from verbose to concise. Examples: [Sphinx Documentation](https://www.sphinx-doc.org/en/master/contents.html) and [The Linux man-pages project](https://www.kernel.org/doc/man-pages/).
+What does someone have to do to get "this" and "that", things the software is supposed to do for a user? The written communication varies from verbose to concise.
 
 Acceptance test: Someone new to the project, not necessarily a developer, can use the code with help of the manual.
 
@@ -22,11 +22,18 @@ Acceptance test: Someone new to the project, not necessarily a developer, can us
   * cautions and warnings
   * [Troubleshooting steps](troubleshooting-guides.md) with examples of the most common error messages
   * contact information in case undocumented questions arise
+  * Do not repeat in the documentation what can be figured out from the tests or by setting a breakpoint, calling the method, and following the execution path.
+
 
 ## Related
 
-Do not repeat in this documentation what can be figured out from the tests or by setting a breakpoint, calling the method, and following the execution path.
+* [Sphinx Documentation](https://www.sphinx-doc.org/en/master/contents.html)
+* [The Linux man-pages project](https://www.kernel.org/doc/man-pages/).
 
 ## Resources
 
 User manuals can be created using a variety of tools. Each tool has its own advantages and disadvantages.
+
+* [Basic office template](https://templates.office.com/en-us/Professional-manual-TM06207126)
+* [MkDocs](https://www.mkdocs.org/)
+* [Sphinx](https://www.sphinx-doc.org/)

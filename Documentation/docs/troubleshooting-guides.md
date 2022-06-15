@@ -15,11 +15,11 @@ Answers what the common problems are, and how to check for them? Tends to start 
 * Don't mistake symptoms for root cause
 * Implement a comprehensive logging infrastructure and use correlation IDs
 * Use system monitors and predictive analytics
-* Publish resolutions and fixes in troubleshooting guides
+* Publish relevant resolutions and fixes in troubleshooting guides
 
 ## Related
 
-* TBD
+* [A Guide to Network Troubleshooting: Basic Steps, Tips and Tools](https://www.comptia.org/content/guides/a-guide-to-network-troubleshooting)
 
 ## Resources
 
