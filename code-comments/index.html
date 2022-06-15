@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Ty Myrddin" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Code comments - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Code comments";
+        var mkdocs_page_input_path = "code-comments.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Code comments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../quickstarts/">Quickstarts</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../user-manuals/">User manuals</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting-guides/">Troubleshooting guides</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-tests/">Automated tests</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../commit-messages/">Git commit messages</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pr-descriptions/">Pull Request descriptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-docs/">Automated documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../error-messages/">Error messages</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Code comments</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/tymyrddin/documentation/edit/main/Documentation/docs/code-comments.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="code-comments">Code comments</h1>
+<blockquote>
+<p>“if your code needs comments, it’s not clear enough on its own.”</p>
+</blockquote>
+<p>Not always true: “if the code is so unclear that it requires a comment, then <em>maybe</em> it should be rewritten instead”</p>
+<h2 id="context">Context</h2>
+<ul>
+<li>When senior and junior people join the team.</li>
+<li>When you come back to the code after a few weeks or more.</li>
+</ul>
+<h2 id="guides">Guides</h2>
+<ul>
+<li>Do not comment the obvious. Use variable names that make the obvious more obvious.</li>
+<li>When doing something that no variable name can make obvious (complicated algorithms), provide comments as headers in the logic.</li>
+<li>If someone is likely to come along and see code they could think needs changing, leave a comment explaining why to leave it like this. </li>
+</ul>
+<p><img alt="Do not remove" src="../img/do-not-remove.png" title="Hey John!" /></p>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="https://github.com/pandas-dev/pandas/blob/main/pandas/plotting/_core.py">Plotting code from Pandas in which the docstrings make up more than half of the file</a></li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://realpython.com/python-comments-guide/#python-commenting-best-practices">Python Commenting Best Practices</a></li>
+<li><a href="https://realpython.com/python-comments-guide/#python-commenting-worst-practices">Python Commenting Worst Practices</a></li>
+<li><a href="https://javascript.info/comments#good-comments">JavaScript Good Comments</a></li>
+<li><a href="https://javascript.info/comments#bad-comments">Javascript Bad Comments</a></li>
+</ul>
+              
+            </div>
+          </div>
+<hr>
+<p>As they say in Discworld, we are trying to unravel the Mighty Infinite using a language which was designed to tell
+    one another where the fresh fruit was.</p>
+<p><a href="https://tymyrddin.space">Ty Myrddin</a> (2022)</p>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tymyrddin/documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../quickstarts/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

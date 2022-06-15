@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Ty Myrddin" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Pull Request descriptions - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Pull Request descriptions";
+        var mkdocs_page_input_path = "pr-descriptions.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../code-comments/">Code comments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../quickstarts/">Quickstarts</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../user-manuals/">User manuals</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting-guides/">Troubleshooting guides</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-tests/">Automated tests</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../commit-messages/">Git commit messages</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Pull Request descriptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-docs/">Automated documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../error-messages/">Error messages</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Pull Request descriptions</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/tymyrddin/documentation/edit/main/Documentation/docs/pr-descriptions.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="pull-request-descriptions">Pull Request descriptions</h1>
+<p><a href="https://xkcd.com/1513/"><img alt="Code Quality" src="../img/code_quality.png" /></a></p>
+<h2 id="context">Context</h2>
+<p>Git facilitates tracking changes made to a project over time, but it does not provide the mechanism for reviewing and 
+leaving inline feedback to proposed changes. So services like GitHub, GitLab, Bitbucket, and Azure DevOps build these 
+layers of collaboration on top of the underlying version control software.
+Whether called a merge request (GitLab) or a pull request (GitHub), this is a request to have changes merged into a 
+repository or project. The process of reviewing the changes before they are merged is called "code review".</p>
+<p>Acceptance test: A PR description should make it possible for a reviewer to take over the change set.</p>
+<h2 id="guides">Guides</h2>
+<ul>
+<li>Not all pull requests are as effective at facilitating code review. The most important criterion that makes a good pull request is that it is focused.</li>
+<li>A reviewer can run, test, and even make experimental changes to the code.</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li>FastAPI TDD Docker authentication pull request</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://chelseatroy.com/2019/12/13/async-collaboration-1-submitting-pull-requests/">Submitting Pull Requests</a></li>
+<li><a href="https://chelseatroy.com/2019/12/18/reviewing-pull-requests/">Reviewing Pull Requests</a></li>
+<li><a href="https://github.com/kylelobo/The-Documentation-Compendium/blob/master/en/PULL_REQUEST_TEMPLATE.md">The Documentation Compendium Pull request checklist</a></li>
+</ul>
+              
+            </div>
+          </div>
+<hr>
+<p>As they say in Discworld, we are trying to unravel the Mighty Infinite using a language which was designed to tell
+    one another where the fresh fruit was.</p>
+<p><a href="https://tymyrddin.space">Ty Myrddin</a> (2022)</p>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tymyrddin/documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../commit-messages/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../automated-docs/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

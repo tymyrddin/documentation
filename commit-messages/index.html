@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Ty Myrddin" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Git commit messages - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Git commit messages";
+        var mkdocs_page_input_path = "commit-messages.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../code-comments/">Code comments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../quickstarts/">Quickstarts</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../user-manuals/">User manuals</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting-guides/">Troubleshooting guides</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-tests/">Automated tests</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Git commit messages</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pr-descriptions/">Pull Request descriptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-docs/">Automated documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../error-messages/">Error messages</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Git commit messages</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/tymyrddin/documentation/edit/main/Documentation/docs/commit-messages.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="git-commit-messages">Git commit messages</h1>
+<p><a href="https://xkcd.com/1296/"><img alt="Alt text" src="../img/git-commit.png" /></a></p>
+<h2 id="context">Context</h2>
+<p>Why git commit messages are the perfect place to store contextual information about how and why a change set was made that might need further changes in the future?</p>
+<ul>
+<li>A commit message is attached to the lines where the changes were made. Most modern IDEs have a view that allows a programmer to see the message associated with the last time any given line was changed.</li>
+<li>When a line changes, it gets included in a new change set with a new commit message. When the code changes, the message explaining why this line is the way it is also changes.</li>
+<li>Even if an individual line in a file changes and gets a new message, important, older changes that may affect the whole file will still be associated with other lines in that file. A git annotation of a whole file will show relevant, timestamped, information about how this file has changed over time. </li>
+</ul>
+<h2 id="guides">Guides</h2>
+<ul>
+<li>Associate each commit with a single change and avoid throwing in distracting, extraneous, unrelated changes. The change can be large (like a structural refactor), but the change set should all relate to one thing then described (and if necessary, justified) in the commit message.</li>
+<li>Include a review of the git history in a context gathering step when approaching unknown code. Pop open the annotation view (available in most IDE's) and take a look at all the commit messages associated with a file or files which are planned to be changed.</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="https://bitbucket.org/tymyrddin/fastapi-recipes/commits/">FastAPI Recipes commits</a></li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://chelseatroy.com/2018/07/21/leveling-up-skill-6-commit-tracing/">Leveling Up Skill #6: Commit Tracing</a></li>
+</ul>
+              
+            </div>
+          </div>
+<hr>
+<p>As they say in Discworld, we are trying to unravel the Mighty Infinite using a language which was designed to tell
+    one another where the fresh fruit was.</p>
+<p><a href="https://tymyrddin.space">Ty Myrddin</a> (2022)</p>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tymyrddin/documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../automated-tests/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../pr-descriptions/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

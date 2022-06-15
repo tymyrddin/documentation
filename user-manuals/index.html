@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Ty Myrddin" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>User manuals - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "User manuals";
+        var mkdocs_page_input_path = "user-manuals.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../code-comments/">Code comments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../quickstarts/">Quickstarts</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">User manuals</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting-guides/">Troubleshooting guides</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-tests/">Automated tests</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../commit-messages/">Git commit messages</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pr-descriptions/">Pull Request descriptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-docs/">Automated documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../error-messages/">Error messages</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>User manuals</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/tymyrddin/documentation/edit/main/Documentation/docs/user-manuals.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="user-manuals">User manuals</h1>
+<p><a href="https://xkcd.com/293/"><img alt="RTFM" src="../img/rtfm.png" /></a></p>
+<p>User manuals are on what a software does and how to use it. What follows are too many meetings, wordy emails, tiring video calls, and more confusing explanations. Key is to communicate effectively with illustrations and maybe some video recordings. Using recognisable templates with examples of the various uses of the software helps too. </p>
+<h2 id="context">Context</h2>
+<p>What does someone have to do to get "this" and "that", things the software is supposed to do for a user? The written communication varies from verbose to concise.</p>
+<p>Acceptance test: Someone new to the project, not necessarily a developer, can use the code with help of the manual.</p>
+<h2 id="guides">Guides</h2>
+<ul>
+<li>Lay out usage examples step-by-step</li>
+<li>Include plenty of diagrams and illustrations</li>
+<li>Usually contains: </li>
+<li>minimum hardware and software requirements</li>
+<li>installation/setup guide and instructions on how to start the system (possibly in the form of a <a href="../quickstarts/">quickstart</a>)</li>
+<li>description of main features</li>
+<li>instructions on how to use the system</li>
+<li>cautions and warnings</li>
+<li><a href="../troubleshooting-guides/">Troubleshooting steps</a> with examples of the most common error messages</li>
+<li>contact information in case undocumented questions arise</li>
+<li>Do not repeat in the documentation what can be figured out from the tests or by setting a breakpoint, calling the method, and following the execution path.</li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="https://www.sphinx-doc.org/en/master/contents.html">Sphinx Documentation</a></li>
+<li><a href="https://www.kernel.org/doc/man-pages/">The Linux man-pages project</a>.</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<p>User manuals can be created using a variety of tools. Each tool has its own advantages and disadvantages.</p>
+<ul>
+<li><a href="https://templates.office.com/en-us/Professional-manual-TM06207126">Basic office template</a></li>
+<li><a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li><a href="https://www.sphinx-doc.org/">Sphinx</a></li>
+</ul>
+              
+            </div>
+          </div>
+<hr>
+<p>As they say in Discworld, we are trying to unravel the Mighty Infinite using a language which was designed to tell
+    one another where the fresh fruit was.</p>
+<p><a href="https://tymyrddin.space">Ty Myrddin</a> (2022)</p>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tymyrddin/documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../quickstarts/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../troubleshooting-guides/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

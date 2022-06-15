@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Ty Myrddin" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Error messages - Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Error messages";
+        var mkdocs_page_input_path = "error-messages.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../img/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../code-comments/">Code comments</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../quickstarts/">Quickstarts</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../user-manuals/">User manuals</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting-guides/">Troubleshooting guides</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-tests/">Automated tests</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../commit-messages/">Git commit messages</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pr-descriptions/">Pull Request descriptions</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../automated-docs/">Automated documentation</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Error messages</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Error messages</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/tymyrddin/documentation/edit/main/Documentation/docs/error-messages.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="error-messages">Error messages</h1>
+<p><a href="https://xkcd.com/2200/"><img alt="API" src="../img/unreachable_state.png" /></a></p>
+<h2 id="context">Context</h2>
+<p>People set up and use software in unintended or unexpected ways (especially if the documentation is not precise and unambiguous). 
+A big part of error messages is about managing pain points for others. This could be messages on misconfigurations, missing modules, or other cli messages, they can be inline errors when signing up for a product, or messages that pop up in the middle of a user’s workflow. The key is to make the interaction as smooth, painless and actionable for users as possible.</p>
+<h2 id="guides">Guides</h2>
+<ul>
+<li>Keep language clear and concise</li>
+<li>Keep user actions specific and logical</li>
+<li>Avoid oops and whoops</li>
+<li>Avoid ambiguity</li>
+<li>Avoid jargon</li>
+<li>A sense of humour is great (we love xkcd to mock ourselves), but avoid it in error messages as it can come across as condescending</li>
+<li>Use a friendly tone in the wording</li>
+<li>Don’t blame the user. Prevent. Demonstrate precisely what is needed instead of writing something was wrong afterwards. </li>
+<li>Isolate the ten most common misuses and put in time on descriptive error messages at the exact point where someone is making the mistake, thereby eliminating a solid chunk of the amount of time that people spend before they get it working. </li>
+</ul>
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="https://medium.com/swlh/the-ten-most-ridiculous-error-messages-in-the-history-of-software-4198d710ea8e">The Ten Most Ridiculous Error Messages in the History of Software</a></li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://blog.bitsrc.io/javascript-exception-handling-patterns-best-practices-f7d6fcab735d?gi=b0eb32c9a19f">JavaScript Exception Handling: Patterns &amp; Best Practices</a></li>
+<li><a href="https://realpython.com/python-exceptions/">Python Exceptions</a></li>
+</ul>
+              
+            </div>
+          </div>
+<hr>
+<p>As they say in Discworld, we are trying to unravel the Mighty Infinite using a language which was designed to tell
+    one another where the fresh fruit was.</p>
+<p><a href="https://tymyrddin.space">Ty Myrddin</a> (2022)</p>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tymyrddin/documentation" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../automated-docs/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
