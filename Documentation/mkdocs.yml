@@ -7,7 +7,7 @@ theme:
     name: readthedocs
     custom_dir: custom_theme/
     include_homepage_in_sidebar: False
-    prev_next_buttons_location: bottom
+    prev_next_buttons_location: 'bottom'
     titles_only: True
     logo: img/logo.png
 nav:
