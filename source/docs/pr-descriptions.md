@@ -1,6 +1,6 @@
 # Pull Request descriptions
 
-[![Code Quality](img/code_quality.png)](https://xkcd.com/1513/)
+[![Code Quality](../_static/images/code_quality.png)](https://xkcd.com/1513/)
 
 ## Context
 

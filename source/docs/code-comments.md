@@ -15,7 +15,7 @@ Not always true: “if the code is so unclear that it requires a comment, then *
 * When doing something that no variable name can make obvious (complicated algorithms), provide comments as headers in the logic.
 * If someone is likely to come along and see code they could think needs changing, leave a comment explaining why to leave it like this. 
 
-![Do not remove](img/do-not-remove.png "Hey John!")
+![Do not remove](../_static/images/do-not-remove.png "Hey John!")
 
 ## Related
 

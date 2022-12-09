@@ -1,6 +1,6 @@
 # Troubleshooting guides
 
-[![Fixing problems](img/fixing_problems.png)](https://xkcd.com/1739/)
+[![Fixing problems](../_static/images/fixing_problems.png)](https://xkcd.com/1739/)
 
 ## Context
 

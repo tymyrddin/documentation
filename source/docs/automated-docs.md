@@ -1,6 +1,6 @@
 # Automated documentation
 
-[![API](img/api_guide.png)](https://xkcd.com/1481/)
+[![API](../_static/images/api_guide.png)](https://xkcd.com/1481/)
 
 ## Context
 

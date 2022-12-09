@@ -1,33 +1,32 @@
-# Documentation
+# SecOpsDev documentation
 
-![Publish Documentation using MkDocs](https://github.com/tymyrddin/documentation/workflows/Publish%20Documentation%20using%20MkDocs/badge.svg?branch=main) Deployment: https://tymyrddin.github.io/documentation
+# Windows mitigations
 
-Built with [MkDocs](https://www.mkdocs.org/) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided 
-by [Read the Docs](https://readthedocs.org/). 
+Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
+by [Read the Docs](https://readthedocs.org/).
 
-Improving our documentation skills. Keys are our word skills, understanding intended readers, and purpose and context of code comments, external 
-documentation, automated tests, git commit messages, pull request descriptions, automated documentation, and error 
-messages. And an exercise in using docsify.
+## Requirements
 
-Installing mkdocs with `pip`, `pipenv` or `poetry` (example here is `pip`)
-```bash
-$ pip install mkdocs
-```
-Or by using the requirements file in the repo:
-```bash
-$ pip install -r requirements.txt
-```
-Launching the site in a local web server, running on port 8000 (in the directory where `mkdocs.yml` resides):
-```bash
-$ mkdocs serve
-```
-Using the built-in support for generating a static website by run the build command:
-```bash
-$ mkdocs build
-```
-This will generate an entire website in a new folder named `site`.
+* sphinx — sphinx package
+* sphinx-rtd-theme — a theme package
+* myst-parser — parsing `.md` files
+* sphinx-markdown-tables — package for Markdown tables support
 
-Deployment:
+## Usage
+
+Add or change documents in the source folder.
+
+Make the build:
 ```bash
-$ mkdocs gh-deploy
+$ make html
 ```
+
+## Problems or Suggestions
+
+This project welcomes contributions and suggestions. 
+
+[Open an issue here](https://github.com/tymyrddin/documentation/issues)
+
+## Mind
+
+"Shut up and tell me what that other idiot ish doing!" "No, but look, if I've got to shut up, how can I --" The knife at his throat became a hot streak of pain and Rincewind decided to give logic a miss. ~ Cohen the Barbarian interrogates Rincewind (Terry Pratchett, The Light Fantastic)

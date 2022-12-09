@@ -1,6 +1,6 @@
 # Git commit messages
 
-[![Alt text](img/git-commit.png)](https://xkcd.com/1296/)
+[![Alt text](../_static/images/git-commit.png)](https://xkcd.com/1296/)
 
 ## Context
 

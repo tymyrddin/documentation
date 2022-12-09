@@ -1,6 +1,6 @@
 # Error messages
 
-[![API](img/unreachable_state.png)](https://xkcd.com/2200/)
+[![API](../_static/images/unreachable_state.png)](https://xkcd.com/2200/)
 
 ## Context
 

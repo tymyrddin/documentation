@@ -1,6 +1,6 @@
 # User manuals
 
-[![RTFM](img/rtfm.png)](https://xkcd.com/293/)
+[![RTFM](../_static/images/rtfm.png)](https://xkcd.com/293/)
 
 User manuals are on what a software does and how to use it. What follows are too many meetings, wordy emails, tiring video calls, and more confusing explanations. Key is to communicate effectively with illustrations and maybe some video recordings. Using recognisable templates with examples of the various uses of the software helps too. 
 
