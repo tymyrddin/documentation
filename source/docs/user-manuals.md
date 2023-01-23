@@ -24,7 +24,6 @@ Acceptance test: Someone new to the project, not necessarily a developer, can us
   * contact information in case undocumented questions arise
   * Do not repeat in the documentation what can be figured out from the tests or by setting a breakpoint, calling the method, and following the execution path.
 
-
 ## Related
 
 * [Sphinx Documentation](https://www.sphinx-doc.org/en/master/contents.html)

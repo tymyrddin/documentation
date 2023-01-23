@@ -1,9 +1,9 @@
 # SecOpsDev documentation
 
-# Windows mitigations
-
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
+
+[![Documentation Status](https://readthedocs.org/projects/secopsdevdocs/badge/?version=latest)](https://blue.tymyrddin.dev/projects/secopsdevdocs/en/latest/?badge=latest)
 
 ## Requirements
 
