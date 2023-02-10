@@ -1,15 +1,11 @@
-SecOpsDev documentation
+SecOpsDev Documentation
 =========================================
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Guards! Guards!
+   :caption: Best practices
 
    docs/*
 
-.. toctree::
-   :caption: Links
-
-   Blue Team <https://blue.tymyrddin.dev/>
